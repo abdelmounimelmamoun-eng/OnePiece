@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e6ec00; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    line-height: 1.6;
+}
+
+a {
+    color: #ff6600; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600; 
+}
+
+.header-principal {
+    background-color: #3e3e3e;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-logo {
+    max-width: 280px;
+    height: auto;
+    display: block;
+}
+
+.nav-principal {
+    margin-top: 10px;
+    padding-bottom: 8px;
+}
+
+.nav-principal ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nav-principal a {
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.nav-principal a.active {
+    color: #ff6600;
+}
+
+.main-container {
+    max-width: 880px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 2rem;
+    color: #111111;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.35rem;
+    color: #111111;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+    text-align: justify;
+}
+
+.meta-article {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.85rem;
+    color: #444444;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+.xarxes-socials img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+.xarxes-socials a:hover {
+    border-bottom: none; 
+}
+
+.imatge-principal {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imatge-principal img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.tweet-container {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.llista-curiositats {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.llista-curiositats li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.enllacos-finals {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.enllacos-finals p {
+    margin-bottom: 8px;
+}
+
+.footer-principal {
+    background-color: #a14ebd; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-logos a:hover {
+    border-bottom: none; 
+}
+
+.logo-fandom {
+    height: 45px;
+    width: auto;
+}
+
+.logo-op {
+    height: 50px;
+    width: auto;
+}

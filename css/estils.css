@@ -130,10 +130,17 @@ p {
     margin: 0 auto;
 }
 
+/* WIDGET DE TWITTER / X ALINEAT A L'ESQUERRA */
 .tweet-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 20px 0;
+    width: 100%;
+}
+
+.tweet-container .twitter-tweet {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* LLISTA DE CURIOSITATS */
@@ -147,7 +154,7 @@ p {
     font-size: 0.92rem;
 }
 
-/* ENLLAÇOS DEL FINAL DE L'ARTICLE */
+/* ENLLAÇOS DEL FINAL DE L'ARTICLE (NEGRE DE BASE, TARONJA AL HOVER) */
 .enllacos-finals {
     margin-top: 25px;
     margin-bottom: 10px;
@@ -158,13 +165,13 @@ p {
 }
 
 .enllacos-finals a {
-    color: #000000; /* Negre per defecte */
+    color: #000000;
     text-decoration: none;
     font-size: 0.92rem;
 }
 
 .enllacos-finals a:hover {
-    color: #ff6600; /* Taronja al passar el ratolí */
+    color: #ff6600;
     border-bottom: 2px solid #ff6600;
 }
 

@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #e2e800; /* Fons groc del fons exterior */
+    background-color: #e2e800; /* Fons groc exterior */
     font-family: Arial, Helvetica, sans-serif;
     color: #222222;
     line-height: 1.5;
@@ -70,7 +70,7 @@ body {
 h1.titol-principal {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.8rem;
-    color: #1a2332; /* Tonalitat fosca del model */
+    color: #1a2332;
     font-weight: bold;
     margin-bottom: 12px;
 }
@@ -99,7 +99,7 @@ p {
     font-size: 0.82rem;
     color: #333333;
     padding-bottom: 6px;
-    border-bottom: 1px solid #cccccc; /* Línia fina separadora */
+    border-bottom: 1px solid #cccccc;
     margin-bottom: 18px;
 }
 
@@ -147,7 +147,7 @@ p {
     font-size: 0.92rem;
 }
 
-/* ENLLAÇOS DEL FINAL DE L'ARTICLE (CORREGITS) */
+/* ENLLAÇOS DEL FINAL DE L'ARTICLE */
 .enllacos-finals {
     margin-top: 25px;
     margin-bottom: 10px;
@@ -158,19 +158,19 @@ p {
 }
 
 .enllacos-finals a {
-    color: #000000; /* Color negre de base */
-    text-decoration: none; /* Sense subratllat inicialment */
+    color: #000000; /* Negre per defecte */
+    text-decoration: none;
     font-size: 0.92rem;
 }
 
 .enllacos-finals a:hover {
-    color: #ff6600; /* Canvia a taronja al passar el ratolí */
-    border-bottom: 2px solid #ff6600; /* Afefeix línia contínua taronja */
+    color: #ff6600; /* Taronja al passar el ratolí */
+    border-bottom: 2px solid #ff6600;
 }
 
 /* PEU DE PÀGINA (FOOTER) */
 .footer-principal {
-    background-color: #a84dbd; /* Purple/Lila de la part inferior */
+    background-color: #a84dbd;
     padding: 18px 0;
     text-align: center;
 }

@@ -7,7 +7,7 @@
 
 body {
     background-color: #e2e800; /* Fons groc exterior */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /* Tipografia sans-serif per al cos */
     color: #222222;
     line-height: 1.5;
 }
@@ -66,18 +66,18 @@ body {
     padding: 25px 35px;
 }
 
-/* TÍTOL I TITULARS */
+/* TÍTOL PRINCIPAL I TITULARS */
 h1.titol-principal {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.8rem;
-    color: #1a2332;
+    font-family: 'Times New Roman', Times, Georgia, serif; /* Font serif com al model */
+    font-size: 2.1rem;
+    color: #0b2d64; /* Color blau marí fosquet del títol */
     font-weight: bold;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 h2 {
     font-family: Georgia, 'Times New Roman', serif;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     color: #111111;
     margin-top: 22px;
     margin-bottom: 10px;
@@ -91,7 +91,13 @@ p {
     text-align: justify;
 }
 
-/* FECHA I XARXES SOCIALS */
+/* FORMAT DE NEGRETS */
+strong {
+    font-weight: bold;
+    color: #000000;
+}
+
+/* DATA I XARXES SOCIALS */
 .meta-article {
     display: flex;
     align-items: center;
@@ -154,7 +160,7 @@ p {
     font-size: 0.92rem;
 }
 
-/* ENLLAÇOS DEL FINAL DE L'ARTICLE (NEGRE DE BASE, TARONJA AL HOVER) */
+/* ENLLAÇOS DEL FINAL DE L'ARTICLE */
 .enllacos-finals {
     margin-top: 25px;
     margin-bottom: 10px;
@@ -165,13 +171,13 @@ p {
 }
 
 .enllacos-finals a {
-    color: #000000;
+    color: #000000; /* Negre de base */
     text-decoration: none;
     font-size: 0.92rem;
 }
 
 .enllacos-finals a:hover {
-    color: #ff6600;
+    color: #ff6600; /* Taronja al passar el ratolí */
     border-bottom: 2px solid #ff6600;
 }
 

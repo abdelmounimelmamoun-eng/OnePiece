@@ -9,14 +9,13 @@ body {
 .bodyg {
   font-family: Serif;
   font-size: 1.3rem;
-  background-color: yellow; 
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  background-color: white; 
+  width: 85%;                  
+  max-width: 1000px;           
+  margin: 0 auto;              
   min-height: 100vh;   
   overflow-x: hidden;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 2rem 3rem;
   box-sizing: border-box;
 }
 
@@ -243,3 +242,4 @@ a.sabernemes:hover {
 .sabernemes:visited {
   color: orange;  
 }
+
